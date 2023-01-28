@@ -1,0 +1,76 @@
+/* Media query */
+@media (max-width: 600px) {
+    #navbar {
+        position: fixed;
+        top: 0;
+    }
+}
+
+/* Style Welcome Section */
+.welcome {
+    background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y29kaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style Projects Section */
+.projects {
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Style Navbar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+/* Style Navbar Links */
+#navbar a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+/* Style Navbar Links on Hover */
+#navbar a:hover {
+    color: #f5f5f5;
+    background-color: #000;
+}
+
+/* Style profile link */
+#profile-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+/* Keep navbar always on top */
+#navbar {
+    position: fixed;
+    top: 0;
+}
